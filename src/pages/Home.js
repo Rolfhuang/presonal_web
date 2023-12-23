@@ -32,7 +32,7 @@ function Home() {
                 </li>
                 <li className='item'>
                     <h2>Back-End</h2>
-                    <span>PyQt5, NodeJS, .NET, SQL</span>
+                    <span>PyQt5, NodeJS, .NET, SQL, Django</span>
                 </li>
                 <li className='item'>
                     <h2>Languages</h2>
