@@ -2,6 +2,8 @@ import React from 'react';
 import {useParams} from 'react-router-dom';
 import { projectList } from '../helper/ProjectList';
 import '../styles/ProjectDisplay.css';
+import WebIcon from '@material-ui/icons/Web';
+import Link from '@material-ui/core/Link';
 
 function ProjectDisplay() {
     const {id} = useParams();
@@ -14,6 +16,9 @@ function ProjectDisplay() {
             <b>Skills:</b>
             {projectArr.skills}
         </p>
+        <Link href='https://deliveryguydemo.weebly.com/' target="_blank">
+          <WebIcon />
+        </Link>
     </div>
   )
 }

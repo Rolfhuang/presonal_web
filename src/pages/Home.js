@@ -3,6 +3,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import GithubIcon from '@material-ui/icons/GitHub';
 import '../styles/Home.css';
+import Link from '@material-ui/core/Link';
 
 function Home() {
   return (
@@ -10,9 +11,15 @@ function Home() {
         <div className='about'>
             <h2>Hi, My name is Ruixiang Huang.</h2>
             <div className='prompt'>
-                <p>Test</p>
-                <LinkedInIcon />
-                <GithubIcon />
+                <Link href='https://www.linkedin.com/in/ruixiang-huang-aa0a931b5' target="_blank">
+                    <LinkedInIcon />
+                </Link>
+                {/* <LinkedInIcon /> */}
+                {/* <GithubIcon /> */}
+                <Link href='https://github.com/Rolfhuang' target="_blank">
+                    <GithubIcon />
+                </Link>
+                
                 <EmailIcon />
             </div>
         </div>
