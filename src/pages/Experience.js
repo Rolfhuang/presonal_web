@@ -38,7 +38,7 @@ function Experience() {
             icon={<WorkIcon/>}
             >
                 <h3 className='vertical-timeline-element-title'>True AI, Queens, New York</h3>
-                <h4 className='vertical-timeline-element-subtitle'>Software QA Engineer</h4>
+                <h4 className='vertical-timeline-element-subtitle'>Software Engineer</h4>
                 <p>Debugged a C++ software solution on Windows for mortgage data extraction using OCR technology, 
                     designed a versatile QA tool using PyQt5, Shell Script, and Python for automation, 
                     actively contributed to SDLC processes, enhanced Data Model accuracy, 
