@@ -22,6 +22,7 @@ function Home() {
                 
                 <EmailIcon />
             </div>
+            <h3>Page pending update...</h3>
         </div>
         <div className='skills'>
             <h1>Skills</h1>
