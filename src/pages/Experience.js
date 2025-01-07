@@ -21,38 +21,39 @@ function Experience() {
             </VerticalTimelineElement>
             
             <VerticalTimelineElement className='vertical-timeline-element--work' 
-            date='2022.03 - 2023.07'
+            date='2021.08 - 2023.07'
             iconStyle={{
                 background: "#e9d35b", color: "#fff"
             }}
             icon={<WorkIcon/>}
             >
-                <h3 className='vertical-timeline-element-title'>True AI, Queens, New York</h3>
+                <h3 className='vertical-timeline-element-title'>
+                    <a href="https://true.ai/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                        True AI(Formerly Softworks AI, LLC), Queens, New York
+                    </a>
+                    </h3>
                 <h4 className='vertical-timeline-element-subtitle'>Software Engineer</h4>
-                <p>Resolved C++ solution errors on Windows for OCR-based mortgage data extraction, significantly enhancing system reliability and performance.</p>
-                <p>Designed and implemented solutions for mortgage file data extraction, improving accuracy through optimized data processing techniques.</p>
-                <p>Developed and optimized C++ functions to refine input parameter handling, boosting system efficiency.</p>
-                <p>Built a comprehensive QA automation tool using QT, Bash, XML/JSON, and Python, increasing processing speed by 50%.</p>
-                <p>Managed QA processes, including internal tools for data transfer, file management, and test method execution, improving workflow efficiency.</p>
-                <p>Leveraged Python and XML/JSON for data analysis, validation, and visualization, improving data ingestion, transformation, and loading for large-scale repositories.</p>
-                <p>Monitored data pipelines, proactively addressing performance bottlenecks and enhancing data model accuracy.</p>
-                <p>Contributed to the design, testing, and maintenance of the software development lifecycle (SDLC), improving extraction accuracy and system performance.</p>
+                <p>Debugged and developed C++ solutions to enhance input parameter handling, significantly improving system response times and performance.</p>
+                <p>Improved backend workflows, increasing data flow efficiency and extraction accuracy by 20%. Improved large-scale ETL pipelines, accelerating processing speeds and data quality.</p>
+                <p>Built a capable automation tools and data validation systems using Python, QT, Bash, Excel, and XML/JSON, increasing operational efficiency by 50% and enhance data transparency and accuracy.</p>
+                <p>Improved the software that audits ~3,000 critical loan data points across ~200 forms, reducing document review times from hours to seconds with clear, concise output reports. Improved productivity for Loan Officers, Underwriters, and QC Specialists by efficiently resolving non-critical inconsistencies.</p>
+                <p>Partnered with clients to refine and optimize data models, ensuring alignment with business goals and seamless integration into workflows and oversaw bug reporting using Jira.</p>
+                <p>Monitored system performance and resolved pipeline issues, improving model accuracy and reliability before delivery.</p>
             </VerticalTimelineElement>
             
             <VerticalTimelineElement className='vertical-timeline-element--work' 
-            date='2021.08 - 2022.03'
+            date='2015.10 - 2018.08'
             iconStyle={{
                 background: "#e9d35b", color: "#fff"
             }}
             icon={<WorkIcon/>}
             >
-                <h3 className='vertical-timeline-element-title'>SoftworksAI, Queens, New York</h3>
-                <h4 className='vertical-timeline-element-subtitle'>System QA Internship</h4>
-                <p>Implemented automation solutions using Bash and Python for testing, reducing manual effort, accelerating test cycles, and improving software quality.</p>
-                <p>Classified and verified data using Python (pandas) to enhance data models.</p>
-                <p>Managed dataset curation for address verification, developed requirements, test strategies, and oversaw bug reporting using Jira.</p>
-                <p>Analyzed test data to uncover insights, visualize trends, and generate reports for stakeholders, aiding decision-making and QA monitoring.</p>
-                <p>Fostered team collaboration to ensure efficient project workflows and successful outcomes.</p>
+                <h3 className='vertical-timeline-element-title'>UNME Group, New York</h3>
+                <h4 className='vertical-timeline-element-subtitle'>Data Analysis & Operations</h4>
+                <p>Led end-to-end analysis of customer behavior using Python and Amazon Seller Central, generating insights that increased repeat purchase rate by implementing targeted product recommendations and service improvements.</p>
+                <p>Streamlined inventory management for 1,000+ SKUs through Excel automation and Amazon tools, resulting in 40% reduction in stockouts while maintaining optimal stock levels through data-driven reorder points.</p>
+                <p>Analysis Amazon Business Reports data with Python enabling proactive inventory planning and reducing supply chain bottlenecks by 25%.</p>
+                <p>Optimized Amazon PPC and Sponsored Products campaigns through performance analysis, achieving 30% improvement in ROAS through strategic bid adjustments and keyword optimization.</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement className='vertical-timeline-element--education' 
