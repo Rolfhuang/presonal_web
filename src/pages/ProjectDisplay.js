@@ -16,7 +16,7 @@ function ProjectDisplay() {
             <b>Skills:</b>
             {projectArr.skills}
         </p>
-        <Link href='https://deliveryguydemo.weebly.com/' target="_blank">
+        <Link href={projectArr.link} target="_blank">
           <WebIcon />
         </Link>
     </div>
