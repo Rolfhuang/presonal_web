@@ -29,8 +29,10 @@ function Experience() {
             >
                 <h3 className='vertical-timeline-element-title'>
                     <a href="https://true.ai/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
-                        True AI(Formerly Softworks AI, LLC), Queens, New York
+                        True AI(Formerly Softworks AI, LLC)
                     </a>
+                    <br />
+                    Queens, New York
                     </h3>
                 <h4 className='vertical-timeline-element-subtitle'>Software Engineer</h4>
                 <p>Debugged and developed C++ solutions to enhance input parameter handling, significantly improving system response times and performance.</p>
@@ -48,7 +50,10 @@ function Experience() {
             }}
             icon={<WorkIcon/>}
             >
-                <h3 className='vertical-timeline-element-title'>UNME Group, New York</h3>
+                <h3 className='vertical-timeline-element-title'>UNME Group
+                <br />
+                    Queens, New York
+                </h3>
                 <h4 className='vertical-timeline-element-subtitle'>Data Analysis & Operations</h4>
                 <p>Led end-to-end analysis of customer behavior using Python and Amazon Seller Central, generating insights that increased repeat purchase rate by implementing targeted product recommendations and service improvements.</p>
                 <p>Streamlined inventory management for 1,000+ SKUs through Excel automation and Amazon tools, resulting in 40% reduction in stockouts while maintaining optimal stock levels through data-driven reorder points.</p>
