@@ -20,7 +20,9 @@ function Home() {
                     <GithubIcon />
                 </Link>
                 
-                <EmailIcon />
+                <Link href='mailto:rolfhuang1215@gmail.com'>
+                    <EmailIcon />
+                </Link>
             </div>
             <h3>Page pending update...</h3>
         </div>
@@ -29,15 +31,27 @@ function Home() {
             <ol className='list'>
                 <li className='item'>
                     <h2>Front-End</h2>
-                    <span>React, PyQt5, CSS</span>
+                    <span>React, Unity, Android Studio, Room Database</span>
                 </li>
                 <li className='item'>
                     <h2>Back-End</h2>
-                    <span>PyQt5, NodeJS, .NET, SQL, Django</span>
+                    <span>Django, Spring Boot, PySpark, SQL (MySQL, PostgreSQL), REST APIs, ETL Pipelines</span>
                 </li>
                 <li className='item'>
                     <h2>Languages</h2>
-                    <span>C++, C#, Python, Java, JS, Regular Expressions</span>
+                    <span>C++, C#, Python, Java, Kotlin, JavaScript, Golang, Bash</span>
+                </li>
+                <li className='item'>
+                    <h2>Machine Learning/Deep Learning</h2>
+                    <span>PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas</span>
+                </li>
+                <li className='item'>
+                    <h2>Tools</h2>
+                    <span>Git, PyCharm, Visual Studio, Unity, Unreal Engine, Jupyter Notebook, AWS, Jira</span>
+                </li>
+                <li className='item'>
+                    <h2>Operating Systems</h2>
+                    <span>Windows, macOS, Linux (Ubuntu, Arch)</span>
                 </li>
             </ol>
         </div>
